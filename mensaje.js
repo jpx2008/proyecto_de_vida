@@ -10,6 +10,7 @@ function showMessage() {
     sessionStorage.setItem("musicaActiva", "true");
   }
 
+  
   // 💬 Mensajes
   msg.innerText = "Iniciando sistema...";
   msg.style.display = "block";
