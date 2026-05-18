@@ -120,6 +120,6 @@ function closePanel(){
 
     panel.classList.remove("active");
 
-    changeImage("carro2.png");
+    changeImage("/carro2.png");
 
 }
