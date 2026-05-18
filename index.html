@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>proyecto de vida</title>
+
+
+
+
+  <link rel="stylesheet" href="estilo.css">
+
+</head>
+<body>
+
+<div class="container">
+
+
+
+    <div class="topbar">
+
+        <div class="logo">
+
+            <h1>
+                PROYECTO DE VIDA <span>2026</span>
+            </h1>
+
+        </div>
+
+    </div>
+
+
+    <div class="car-section">
+
+        <img src="img/carro2.png" id="car">
+
+    
+
+        <button class="hotspot capo"
+        onclick="showInfo('capo')"></button>
+
+        <button class="hotspot puerta1"
+        onclick="showInfo('puerta1')"></button>
+
+        <button class="hotspot puerta2"
+        onclick="showInfo('puerta2')"></button>
+
+        <button class="hotspot puerta3"
+        onclick="showInfo('puerta3')"></button>
+
+        <button class="hotspot puerta4"
+        onclick="showInfo('puerta4')"></button>
+
+        <button class="hotspot baul"
+        onclick="showInfo('baul')"></button>
+
+    </div>
+
+
+
+    <div class="info-panel" id="panel">
+
+        <h2 id="title">CAPÓ</h2>
+
+        <img src="img/motor.jpg" id="panelImage">
+
+        <p id="description">
+
+            Motor VTEC Turbo de alto rendimiento
+            diseñado para máxima velocidad y precisión.
+
+        </p>
+
+        <div class="stats">
+
+            <div class="stat">
+                <span>Motor</span>
+                <span>2.0L</span>
+            </div>
+
+            <div class="stat">
+                <span>Potencia</span>
+                <span>320 HP</span>
+            </div>
+
+            <div class="stat">
+                <span>Torque</span>
+                <span>400 Nm</span>
+            </div>
+
+        </div>
+
+        <button class="close-btn"
+        onclick="closePanel()">
+
+            CERRAR
+
+        </button>
+
+    </div>
+
+
+
+    <div class="bottom-menu">
+
+        <button class="menu-btn"
+        onclick="showInfo('capo')">
+
+            CAPÓ
+
+        </button>
+
+        <button class="menu-btn"
+        onclick="showInfo('puerta1')">
+
+            PUERTA 1
+
+        </button>
+
+        <button class="menu-btn"
+        onclick="showInfo('puerta2')">
+
+            PUERTA 2
+
+        </button>
+
+        <button class="menu-btn"
+        onclick="showInfo('puerta3')">
+
+            PUERTA 3
+
+        </button>
+
+        <button class="menu-btn"
+        onclick="showInfo('puerta4')">
+
+            PUERTA 4
+
+        </button>
+
+        <button class="menu-btn"
+        onclick="showInfo('baul')">
+
+            BAÚL
+
+        </button>
+
+    </div>
+
+</div>
+
+<script src="funcionalidad.js"></script>
+</body>
+</html>
