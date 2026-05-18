@@ -34,7 +34,7 @@ function showInfo(part){
 
     if(part === "capo"){
 
-        changeImage("img/capo.png");
+        changeImage("capo.png");
 
         title.innerHTML = "CAPÓ";
 
@@ -42,12 +42,12 @@ function showInfo(part){
         "Capó de diseño aerodinámico con líneas agresivas que realzan la deportividad del vehículo.";
 
         panelImage.src =
-        "img/capo.png";
+        "capo.png";
     }
 
     if(part === "puerta1"){
 
-        changeImage("img/puerta1izq.png");
+        changeImage("puerta1izq.png");
 
         title.innerHTML =
         "PUERTA DELANTERA";
@@ -56,12 +56,12 @@ function showInfo(part){
         "Puertas deportivas con diseño aerodinámico y apertura premium.";
 
         panelImage.src =
-        "img/puerta1izq.png";
+        "puerta1izq.png";
     }
 
     if(part === "puerta2"){
 
-        changeImage("img/puerta2izq.png");
+        changeImage("puerta2izq.png");
 
         title.innerHTML =
         "PUERTA TRASERA";
@@ -70,12 +70,12 @@ function showInfo(part){
         "Amplio espacio interior con acabados deportivos.";
 
         panelImage.src =
-        "img/puerta2izq.png";
+        "puerta2izq.png";
     }
 
     if(part === "puerta3"){
 
-        changeImage("img/puerta3dere.png");
+        changeImage("puerta3dere.png");
 
         title.innerHTML =
         "PUERTA DERECHA";
@@ -84,12 +84,12 @@ function showInfo(part){
         "Sistema de apertura suave y materiales premium.";
 
         panelImage.src =
-        "img/puerta3dere.png";
+        "puerta3dere.png";
     }
 
     if(part === "puerta4"){
 
-        changeImage("img/puerta4dere.png");
+        changeImage("puerta4dere.png");
 
         title.innerHTML =
         "PUERTA TRASERA DERECHA";
@@ -98,12 +98,12 @@ function showInfo(part){
         "Comodidad y estilo en cada detalle.";
 
         panelImage.src =
-        "img/puerta4dere.png";
+        "puerta4dere.png";
     }
 
     if(part === "baul"){
 
-        changeImage("img/baul.png");
+        changeImage("baul.png");
 
         title.innerHTML = "BAÚL";
 
@@ -111,7 +111,7 @@ function showInfo(part){
         "Gran capacidad de almacenamiento ideal para viajes y uso diario.";
 
         panelImage.src =
-        "img/baul.png";
+        "baul.png";
     }
 
 }
@@ -120,6 +120,6 @@ function closePanel(){
 
     panel.classList.remove("active");
 
-    changeImage("img/carro2.png");
+    changeImage("carro2.png");
 
 }
