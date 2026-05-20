@@ -1,0 +1,374 @@
+body{
+    background-image: url("pistadefondo.jpg");
+    background-size: cover;
+    background-position: center; 
+    background-repeat: no-repeat;
+    min-height: 100dvh; 
+}
+img{
+    width: 50%;
+    position: absolute;
+    top: 40%;
+    left: 5%;
+    animation: arrive 1s ease-out;
+}
+h1{
+    position: relative;
+    margin: 0;
+    color: white;
+    font-size: 48px;
+    text-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+}
+.dialogo {
+    width: 500px;
+    height: 200px;
+    padding: 20px;
+    position: absolute;
+    top: 19%;
+    left: 75%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    border: none;
+    background: transparent;
+    opacity: 0;
+    animation: dialogoFadeIn 1.5s ease-out 4s forwards;
+}
+button {
+    position: absolute;
+    width: 195px;
+    height: 87px;
+    top: 53%;
+    left: 72%;
+
+    font-size: 18px;
+    color: rgb(0, 0, 0);
+     background-image: url("elementos/placa1.png");
+    background-size: cover;          
+    background-position: center;    
+    background-repeat: no-repeat;
+    border: none;
+    border-radius: 5px;
+    opacity: 0;
+    animation: aparecerBoton 1s ease 5s forwards;
+}
+
+button:hover {
+    background-color: rgba(212, 210, 208, 0.8);
+    cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+/*animaciones generales de carro,paracaidas,y boton*/
+@keyframes arrive {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 5%;
+    }
+}
+
+.smoke-container {
+    position: absolute;
+    top: 40%;
+    left: -5%;
+    width: 400px;
+    height: 500px;
+    pointer-events: none;
+    animation: moveSmoke 1s ease-out;
+}
+
+.smoke {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    background: radial-gradient(circle, rgba(150,150,150,0.8) 0%, rgba(200,200,200,0.5) 40%, rgba(200,200,200,0) 70%);
+    border-radius: 50%;
+    opacity: 0;
+}
+
+.smoke:nth-child(1) {
+    left: 20px;
+    top: 100px;
+    animation: smokeFloat 2s ease-out 1s forwards;
+}
+
+.smoke:nth-child(2) {
+    left: 100px;
+    top: 50px;
+    animation: smokeFloat 2s ease-out 1s forwards;
+}
+
+.smoke:nth-child(3) {
+    left: 150px;
+    top: 150px;
+    animation: smokeFloat 2s ease-out 1s forwards;
+}
+
+@keyframes moveSmoke {
+    0% {
+        left: -100%;
+    }
+    100% {
+        left: 5%;
+    }
+}
+
+@keyframes smokeFloat {
+    0% {
+        opacity: 0;
+        transform: translateY(0) scale(0.4);
+    }
+    15% {
+        opacity: 0.9;
+    }
+    50% {
+        opacity: 0.7;
+    }
+    100% {
+        opacity: 0;
+        transform: translateY(-200px) scale(1.5);
+    }
+}
+
+@keyframes titleDrop {
+    0% {
+        transform: translate(-50%, -200%) rotate(-5deg);
+        opacity: 0;
+    }
+    30% {
+        transform: translate(-50%, -50%) rotate(2deg);
+        opacity: 1;
+    }
+    50% {
+        transform: translate(-50%, -45%) rotate(-1deg);
+    }
+    70% {
+        transform: translate(-50%, -48%) rotate(0.5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+.parachute-container {
+    position: absolute;
+    top: 10%;
+    right: -25%;
+    transform: translate(-50%, -50%);
+    animation: parachuteFall 3s ease-out 0.5s forwards;
+}
+
+.parachute-canopy {
+    width: 120px;
+    height: 80px;
+    background: radial-gradient(ellipse at top, rgba(143, 135, 135, 0.9) 0%, rgba(200,200,200,0.7) 50%, rgba(150,150,150,0.5) 100%);
+    border-radius: 50% 50% 50% 50% / 60% 60% 40% 40%;
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    animation: canopyFold 1s ease-in 3.5s forwards;
+}
+
+.parachute-lines {
+    position: absolute;
+    top: -80px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 100px;
+    height: 80px;
+}
+
+.parachute-lines .line {
+    position: absolute;
+    width: 2px;
+    height: 80px;
+    background: rgba(255,255,255,0.8);
+    top: 0;
+}
+
+.parachute-lines .line.left {
+    left: 20px;
+    transform: rotate(-15deg);
+    animation: lineFold 1s ease-in 3.5s forwards;
+}
+
+.parachute-lines .line.right {
+    right: 20px;
+    transform: rotate(15deg);
+    animation: lineFold 1s ease-in 3.5s forwards;
+}
+
+@keyframes parachuteFall {
+    0% {
+        transform: translate(-50%, -300%) rotate(-2deg);
+    }
+    20% {
+        transform: translate(-50%, -200%) rotate(1deg);
+    }
+    40% {
+        transform: translate(-50%, -120%) rotate(-1deg);
+    }
+    60% {
+        transform: translate(-50%, -80%) rotate(0.5deg);
+    }
+    80% {
+        transform: translate(-50%, -60%) rotate(-0.5deg);
+    }
+    100% {
+        transform: translate(-50%, -50%) rotate(0deg);
+    }
+}
+
+@keyframes canopyFold {
+    0% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translateX(-50%) scale(0.8) rotate(10deg);
+    }
+    100% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.3) rotate(45deg);
+    }
+}
+
+@keyframes lineFold {
+    0% {
+        opacity: 1;
+        height: 80px;
+    }
+    50% {
+        opacity: 0.7;
+        height: 40px;
+    }
+    100% {
+        opacity: 0;
+        height: 0;
+    }
+}
+
+@keyframes dialogoFadeIn {
+    0% {
+        opacity: 0;
+        transform: translateX(-50%) scale(0.8) rotate(-2deg);
+    }
+    50% {
+        opacity: 0.7;
+        transform: translateX(-50%) scale(1.05) rotate(1deg);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(-50%) scale(1) rotate(0deg);
+    }
+}
+
+@keyframes aparecerBoton {
+    from {
+        opacity: 0;
+        transform: scale(0.8);
+    }
+    to {
+        opacity: 1;
+        transform: scale(1);
+    }
+}
+
+
+
+/* 📱 TELÉFONOS */
+@media (max-width: 600px) {
+
+    img {
+        width: 90%;
+        top: 40%;
+        left: 5%;
+    }
+
+    h1 {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .dialogo {
+        width: 90%;
+        height: auto;
+        top: 5%;
+        left: 50%;
+        transform: translateX(-50%);
+        font-size: 20px;
+    }
+
+    button {
+        top: 80%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+
+    .parachute-container {
+        top: 10%;
+        right: 50%;
+        transform: translate(50%, -50%);
+    }
+}
+
+
+/* 📲 TABLET */
+@media (min-width: 601px) and (max-width: 1024px) {
+
+    img {
+        width: 70%;
+        top: 45%;
+        left: 10%;
+    }
+
+    .dialogo {
+        width: 60%;
+        top: 15%;
+        left: 60%;
+        font-size: 28px;
+    }
+
+    button {
+        top: 65%;
+        left: 65%;
+    }
+
+    h1 {
+        font-size: 36px;
+    }
+
+    .parachute-container {
+        right: 30%;
+    }
+}
+
+
+/* 💻 LAPTOP (ajuste fino) */
+@media (min-width: 1025px) {
+
+    .dialogo {
+        font-size: 40px;
+    }
+
+    button {
+        top: 55%;
+    }
+}
