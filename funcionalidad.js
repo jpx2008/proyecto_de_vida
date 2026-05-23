@@ -39,7 +39,7 @@ function showInfo(part){
         title.innerHTML = "CAPÓ";
 
         description.innerHTML =
-        "Visión Ser responsable, profesional y honesto, llegar a tener una empresa de las importantes, buen padre de familia, todo bajo los valores y principios y mi Misión es Ser un universitario comprometido y ayudar en el bienestar social mediante la educación actuando con integridad y responsabilidad.";
+        "Puertas deportivas con diseño aerodinámico y apertura premium.";
 
         panelImage.src =
         "capo.png";
