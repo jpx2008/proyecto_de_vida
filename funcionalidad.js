@@ -50,10 +50,10 @@ function showInfo(part){
         changeImage("puerta1izq.png");
 
         title.innerHTML =
-        "PUERTA DELANTERA";
+        "PRINCIPIOS Y VALORES";
 
         description.innerHTML =
-        "Principios son Respeto: Continuar respetando a mis padres, hermanos y a los mayores en general, así como a todas las personas,Humildad: Seguir con humildad aun cuando culmine mis estudios, así como al momento de tener mi negocio y cualquier otro objetivo y otra meta que cumpla,Responsabilidad: Cumpliendo con todo lo que se me asigne, tanto como en la vida de estudiante, en lo laboral, en lo familiar y en cualquier actividad asignada y mis Valores son Honestidad: Cumplir a cabalidad con todo y nunca caer en algo deshonesto,Sinceridad: Continuar diciendo la verdad sea como sea,Confianza: Nunca perder la confianza que me han dado todas las personas.";
+        "Principios son Respeto: Respetando a mis padres, hermanos, mayores y a todas las personas; seguir con humildad aun cuando culmine mis estudios, tenga mi negocio y cumpla mis metas; cumpliendo con todo lo que se me asigne en la vida estudiantil, laboral, familiar y cualquier actividad. Cumplir a cabalidad con todo y nunca caer en algo deshonesto, continuar diciendo la verdad sea como sea y nunca perder la confianza que me han dado todas las personas.";
 
         panelImage.src =
         "puerta1izq.png";
