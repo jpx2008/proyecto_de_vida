@@ -67,7 +67,17 @@ function showInfo(part){
         "PUERTA TRASERA";
 
         description.innerHTML =
-        "Ciudadana, Espiritual, Sociocultural <br><br> Intelectual, Física, Emocional, Trabajo, Financiera, Familia";
+         <ul>
+            <li>Ciudadana</li>
+            <li>Espiritual</li>
+            <li>Sociocultural</li>
+            <li>Intelectual</li>
+            <li>Física</li>
+            <li>Emocional</li>
+            <li>Trabajo</li>
+            <li>Financiera</li>
+            <li>Familia</li>
+</ul>
 
         panelImage.src =
         "puerta2izq.png";
