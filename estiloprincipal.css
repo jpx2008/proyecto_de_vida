@@ -72,7 +72,7 @@ button:hover {
 
 
 
-/*animaciones generales de carro,paracaidas,y boton*/
+
 @keyframes arrive {
     0% {
         left: -100%;
@@ -293,7 +293,7 @@ button:hover {
 
 
 
-/* 📱 TELÉFONOS */
+
 @media (max-width: 600px) {
 
     img {
@@ -330,7 +330,7 @@ button:hover {
 }
 
 
-/* 📲 TABLET */
+
 @media (min-width: 601px) and (max-width: 1024px) {
 
     img {
@@ -361,7 +361,7 @@ button:hover {
 }
 
 
-/* 💻 LAPTOP (ajuste fino) */
+
 @media (min-width: 1025px) {
 
     .dialogo {
