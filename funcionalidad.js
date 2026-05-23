@@ -39,7 +39,11 @@ function showInfo(part){
         title.innerHTML = "CAPÓ";
 
         description.innerHTML =
-        "Capó de diseño aerodinámico con líneas agresivas que realzan la deportividad del vehículo.";
+        "Visión
+Ser responsable, profesional y honesto, llegar a tener una empresa de las importantes, buen padre de familia, todo bajo los valores y principios.
+
+Misión 
+Ser un universitario comprometido y ayudar en el bienestar social mediante la educación actuando con integridad y responsabilidad.";
 
         panelImage.src =
         "capo.png";
