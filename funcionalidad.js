@@ -74,7 +74,7 @@ function showInfo(part){
 
     if(part === "puerta3"){
         
-        changeImage("puerta3izq.png");
+        changeImage("puerta3dere.png");
         
         title.innerHTML =
         "PUERTA DERECHA";
