@@ -39,7 +39,7 @@ function showInfo(part){
         title.innerHTML = "CAPÓ";
 
         description.innerHTML =
-        "Puertas deportivas con diseño aerodinámico y apertura premium.";
+        "Visión Ser responsable, profesional y honesto, llegar a tener una empresa de las importantes, buen padre de familia, todo bajo los valores y principios y mi Misión es Ser un universitario comprometido y ayudar en el bienestar social mediante la educación actuando con integridad y responsabilidad.";
 
         panelImage.src =
         "capo.png";
@@ -53,7 +53,7 @@ function showInfo(part){
         "PUERTA DELANTERA";
 
         description.innerHTML =
-        "Puertas deportivas con diseño aerodinámico y apertura premium.";
+        "Principios son Respeto: Continuar respetando a mis padres, hermanos y a los mayores en general, así como a todas las personas,Humildad: Seguir con humildad aun cuando culmine mis estudios, así como al momento de tener mi negocio y cualquier otro objetivo y otra meta que cumpla,Responsabilidad: Cumpliendo con todo lo que se me asigne, tanto como en la vida de estudiante, en lo laboral, en lo familiar y en cualquier actividad asignada y mis Valores son Honestidad: Cumplir a cabalidad con todo y nunca caer en algo deshonesto,Sinceridad: Continuar diciendo la verdad sea como sea,Confianza: Nunca perder la confianza que me han dado todas las personas.";
 
         panelImage.src =
         "puerta1izq.png";
@@ -67,7 +67,7 @@ function showInfo(part){
         "PUERTA TRASERA";
 
         description.innerHTML =
-        "Amplio espacio interior con acabados deportivos.";
+        "Ciudadana,Espiritual,Sociocultural,Intelectual,Fisica,Emocional,Trabajo,Financiera,Familia";
 
         panelImage.src =
         "puerta2izq.png";
@@ -108,7 +108,7 @@ function showInfo(part){
         title.innerHTML = "BAÚL";
 
         description.innerHTML =
-        "Gran capacidad de almacenamiento ideal para viajes y uso diario.";
+        "01	Aprobar mis estudios universitarios	 Jun2026,  02 Ser más responsable y disciplinado May2026,03	Ahorrar dinero para mi futuro Jun2026, 04 Obtener experiencia laboral Jun2026,05 Continuar la universidad Feb2027,06	Empezar mi negocio propio Sep2028,07 Cierre de Pensum Nov2030,08 Tener una empresa estable Ene2030";
 
         panelImage.src =
         "baul.png";
