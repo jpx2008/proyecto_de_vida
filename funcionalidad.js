@@ -80,8 +80,7 @@ function showInfo(part){
         "OBJETIVOS DE META";
 
         description.innerHTML =
-        "Mi visión: Ser profesional, honesto y formar una familia con valores.<br><br>Mi objetivo: Graduarme, emprender y apoyar a mi familia.<br><br>Corto plazo: Aprobar estudios y ahorrar. Fortalezas: responsabilidad. Debilidades: distracciones. Principios: respeto.<br><br>Mediano plazo: Continuar la universidad y emprender. Fortalezas: esfuerzo. Debilidades: inseguridad. Principios: perseverancia.<br><br>Largo plazo: Graduarme, tener una empresa y ayudar a mis padres. Fortalezas: liderazgo. Debilidades: estrés. Principios: integridad y responsabilidad.";
-
+        "Visión: Profesional exitoso con empresa y familia.<br><br>Objetivo: Graduarme, emprender y apoyar a mi familia.<br><br>Metas: Estudiar, crear mi negocio y ayudar a mis padres.";
         panelImage.src =
         "puerta3dere.png";
     }
