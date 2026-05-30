@@ -93,8 +93,7 @@ function showInfo(part){
         "ESTRATREGIAS";
 
         description.innerHTML =
-        "A corto plazo, mis estrategias son organizar mejor mi tiempo, cumplir con mis responsabilidades y ahorrar dinero para el futuro. También buscaré evitar distracciones, tener más confianza en mí mismo y aprender de mis errores. Para solucionar problemas, pediré consejos, mantendré una actitud positiva y actuaré con responsabilidad.A mediano plazo, continuaré preparándome en la universidad y ahorraré dinero para iniciar mi propio negocio. Además, mejoraré la organización de mi tiempo, controlaré la inseguridad y administraré mejor mi dinero con disciplina y compromiso.A largo plazo, trabajaré con honestidad y responsabilidad, manteniendo siempre mis valores y principios. También aprenderé a manejar el estrés, ser paciente y tomar decisiones correctas para resolver los problemas con madurez y tranquilidad.";
-
+       "A corto plazo: Organizarme y ahorrar.<br><br>A mediano plazo: Estudiar y emprender.<br><br>A largo plazo: Trabajar con responsabilidad y alcanzar mis metas.";
         panelImage.src =
         "puerta4dere.png";
     }
