@@ -80,7 +80,7 @@ function showInfo(part){
         "OBJETIVOS DE META";
 
         description.innerHTML =
-        "Mi visión Ser responsable, profesional y honesto, tener una empresa importante y formar una buena familia con valores y principios.<br><br>Mi objetivoGraduarme de la universidad, tener mi propio negocio y apoyar a mi familia.<br><br>Corto plazo (1 año) Aprobar mis estudios, ser responsable y ahorrar dinero.Fortalezas: responsabilidad y honestidad.<br><br>Debilidades: distracciones y nerviosismo.Principios: respeto y humildad.Mediano plazo (2 a 3 años)Continuar la universidad, obtener experiencia y empezar mi negocio.Fortalezas: compromiso y esfuerzo.Debilidades: inseguridad y poco tiempo.Principios: honestidad y perseverancia.<br><br>Largo plazo (4 a 5 años)Graduarme, tener una empresa estable y ayudar a mis padres.Fortalezas: liderazgo y motivación.Debilidades: estrés y cansancio.Principios: integridad, disciplina y responsabilidad.";
+        "Mi visión: Ser profesional, honesto y formar una familia con valores.<br><br>Mi objetivo: Graduarme, emprender y apoyar a mi familia.<br><br>Corto plazo: Aprobar estudios y ahorrar. Fortalezas: responsabilidad. Debilidades: distracciones. Principios: respeto.<br><br>Mediano plazo: Continuar la universidad y emprender. Fortalezas: esfuerzo. Debilidades: inseguridad. Principios: perseverancia.<br><br>Largo plazo: Graduarme, tener una empresa y ayudar a mis padres. Fortalezas: liderazgo. Debilidades: estrés. Principios: integridad y responsabilidad.";
 
         panelImage.src =
         "puerta3dere.png";
